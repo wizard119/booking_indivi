@@ -72,9 +72,9 @@ spring:
 
 api:
  url:
-   cronaseat: http://cronaseat:8080
-  #configmap 시작
-  #cronaseat: ${configurl}  
+   #cronaseat: http://cronaseat:8080
+   #configmap 시작
+   cronaseat: ${configurl}  
 
 # circuit break 시작  
 #feign:
