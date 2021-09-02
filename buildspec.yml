@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    _PROJECT_NAME: "user5-payment"
+    _PROJECT_NAME: "indivi-user25-booking"
 
 phases:
   install:
