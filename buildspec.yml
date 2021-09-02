@@ -82,6 +82,11 @@ phases:
                           configMapKeyRef:  #configmap
                             name: port-list #configmap
                             key: port2      #configmap
+                    resources:
+                      limits:       #HPA
+                        cpu: 500m   #HPA
+                      requests:     #HPA
+                        cpu: 200m   #HPA
                     readinessProbe:
                       httpGet:
                         path: /actuator/health
