@@ -77,13 +77,13 @@ api:
    cronaseat: ${configurl}  
 
 # circuit break 시작  
-#feign:
-#  hystrix:
-#    enabled: true
+feign:
+  hystrix:
+    enabled: true
 
-#hystrix:
-#  command:
+hystrix:
+  command:
     # 전역설정
-#    default:
-#      execution.isolation.thread.timeoutInMilliseconds: 600
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 600
 # circuit break 끝
